@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Andrey Sevrikov" => "devandsev@gmail.com" }
   s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "10.0"
   s.osx.deployment_target = "10.9"
   s.source       = { :git => s.homepage + ".git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
